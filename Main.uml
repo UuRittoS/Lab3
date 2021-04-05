@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company.Main</OriginalElement>
+  <nodes>
+    <node x="285.3515179995443" y="799.0">com.company.Skills</node>
+    <node x="66.35151799954428" y="809.5">com.company.HumanType</node>
+    <node x="262.3333333333333" y="1011.0">com.company.Creature</node>
+    <node x="527.4632675438596" y="1198.5">com.company.AnimalType</node>
+    <node x="226.72651799954428" y="1901.0">com.company.Main</node>
+    <node x="409.41666666666663" y="1623.0">com.company.Animal</node>
+    <node x="670.6954104010025" y="651.0">com.company.Actions</node>
+    <node x="86.375" y="171.0">com.company.ObjectRealize</node>
+    <node x="431.3515179995443" y="810.0">com.company.CreatureActions</node>
+    <node x="39.4230391319208" y="629.0">com.company.object</node>
+    <node x="178.45833333333331" y="1645.5">com.company.Human</node>
+    <node x="657.1904761904761" y="281.0">com.company.AActions</node>
+    <node x="233.4375" y="0.5">com.company.OpenClosable</node>
+    <node x="0.0" y="0.0">com.company.ObjectType</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.ObjectRealize" target="com.company.OpenClosable">
+      <point x="99.0" y="-204.0" />
+      <point x="333.875" y="146.0" />
+      <point x="309.9375" y="146.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="com.company.Creature" target="com.company.Skills">
+      <point x="0.0" y="-281.0" />
+      <point x="382.3333333333333" y="961.0" />
+      <point x="348.3515179995443" y="961.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="com.company.object" target="com.company.ObjectRealize">
+      <point x="0.0" y="-60.0" />
+      <point x="168.9230391319208" y="604.0" />
+      <point x="160.625" y="604.0" />
+      <point x="-74.25" y="204.0" />
+    </edge>
+    <edge source="com.company.Human" target="com.company.Creature">
+      <point x="67.33333333333331" y="-71.5" />
+      <point x="346.79166666666663" y="1598.0" />
+      <point x="352.3333333333333" y="1598.0" />
+      <point x="-30.0" y="281.0" />
+    </edge>
+    <edge source="com.company.Creature" target="com.company.CreatureActions">
+      <point x="34.28571428571428" y="-281.0" />
+      <point x="416.6190476190476" y="971.0" />
+      <point x="491.3515179995443" y="971.0" />
+      <point x="-60.0" y="60.0" />
+    </edge>
+    <edge source="com.company.Animal" target="com.company.Creature">
+      <point x="-74.25" y="-94.0" />
+      <point x="434.16666666666663" y="1598.0" />
+      <point x="412.3333333333333" y="1598.0" />
+      <point x="30.0" y="281.0" />
+    </edge>
+    <edge source="com.company.Actions" target="com.company.AActions">
+      <point x="-32.75" y="-38.0" />
+      <point x="703.4454104010025" y="604.0" />
+      <point x="700.1904761904761" y="604.0" />
+      <point x="-43.0" y="94.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.24303797468354432" x="415.0" y="977.4999999999999" />
+  <SelectedNodes>
+    <node>com.company.Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
